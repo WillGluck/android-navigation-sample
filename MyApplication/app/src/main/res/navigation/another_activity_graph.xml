@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/another_activity_graph"
+    app:startDestination="@id/anotherActivityFragment">
+
+    <fragment
+        android:id="@+id/anotherActivityFragment"
+        android:name="com.example.myapplication.AnotherActivityFragment"
+        android:label="fragment_another_activity"
+        tools:layout="@layout/fragment_another_activity" />
+</navigation>
